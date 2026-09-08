@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vibrant Emerald Brand Colors for Dark Theme -->
+    <color name="primary">#10B981</color>
+    <color name="primary_dark">#059669</color>
+    <color name="primary_light">#064E3B</color>
+    <color name="primary_container">#022C22</color>
+    <color name="on_primary">#000000</color>
+
+    <!-- Secondary & Accent Colors -->
+    <color name="secondary">#14B8A6</color>
+    <color name="secondary_light">#042F2E</color>
+    <color name="accent">#F59E0B</color>
+
+    <!-- Expiry & Status Badges for Dark Theme -->
+    <color name="status_fresh">#22C55E</color>
+    <color name="status_expiring">#F97316</color>
+    <color name="status_expired">#EF4444</color>
+
+    <color name="badge_background_fresh">#052E16</color>
+    <color name="badge_background_expiring">#431407</color>
+    <color name="badge_background_expired">#450A0A</color>
+
+    <!-- Dark Theme Background & Cards -->
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="card_background">#1E1E1E</color>
+    <color name="divider">#2D2D2D</color>
+
+    <!-- Crystal Clear White Typography for Dark Theme -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#D1D5DB</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="white">#FFFFFF</color>
+</resources>

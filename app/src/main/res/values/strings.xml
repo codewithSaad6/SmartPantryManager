@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartPantry</string>
+
+    <!-- Navigation Labels -->
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_suggested">Suggested</string>
+    <string name="nav_all_recipes">Recipes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Screen Titles -->
+    <string name="title_pantry">SmartPantry</string>
+    <string name="title_add_ingredient">Add Ingredient</string>
+    <string name="title_edit_ingredient">Edit Ingredient</string>
+    <string name="title_suggested_recipes">Suggested Recipes</string>
+    <string name="title_all_recipes">Recipe Collection</string>
+    <string name="title_recipe_detail">Recipe Details</string>
+    <string name="title_settings">Settings &amp; Preferences</string>
+
+    <!-- Pantry Screen -->
+    <string name="search_pantry_hint">Search pantry ingredients...</string>
+    <string name="search_recipes_hint">Search recipes or ingredients...</string>
+    <string name="empty_pantry_title">Your Pantry is Empty</string>
+    <string name="empty_pantry_desc">Add leftover ingredients to unlock delicious recipes you can cook right now!</string>
+    <string name="btn_add_first_ingredient">Add First Ingredient</string>
+    <string name="btn_add_ingredient">Add Ingredient</string>
+    <string name="pantry_total_count">%1$d ingredients in pantry</string>
+
+    <!-- Ingredient Status -->
+    <string name="status_fresh_label">Fresh</string>
+    <string name="status_expiring_label">Expiring Soon</string>
+    <string name="status_expired_label">Expired</string>
+
+    <!-- Add/Edit Ingredient Form -->
+    <string name="label_ingredient_name">Ingredient Name</string>
+    <string name="hint_ingredient_name">e.g. Eggs, Tomatoes, Rice, Milk</string>
+    <string name="label_quantity">Quantity</string>
+    <string name="hint_quantity">e.g. 5, 500, 1.5</string>
+    <string name="label_unit">Unit of Measurement</string>
+    <string name="label_category">Category</string>
+    <string name="label_expiry_date">Expiry Date (Optional)</string>
+    <string name="hint_expiry_date">YYYY-MM-DD</string>
+    <string name="btn_save">Save Ingredient</string>
+    <string name="btn_update">Update Ingredient</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Validation Errors -->
+    <string name="error_empty_name">Ingredient name is required</string>
+    <string name="error_invalid_quantity">Please enter a valid quantity greater than 0</string>
+    <string name="error_select_unit">Please select a unit of measurement</string>
+
+    <!-- Suggested Recipes Screen -->
+    <string name="strict_match_header">100%% Strict Match Recipes (%1$d)</string>
+    <string name="almost_there_header">Almost There - Missing 1 Ingredient (%1$d)</string>
+    <string name="empty_suggested_title">No Matching Recipes Found</string>
+    <string name="empty_suggested_desc">No recipes match your current pantry ingredients yet. Add more items to unlock ready-to-cook recipes!</string>
+
+    <!-- Recipe Details -->
+    <string name="label_prep_time">Prep: %1$d mins</string>
+    <string name="label_cook_time">Cook: %1$d mins</string>
+    <string name="label_category_tag">Category: %1$s</string>
+    <string name="label_ingredients_heading">Required Ingredients</string>
+    <string name="label_instructions_heading">Preparation Steps</string>
+    <string name="btn_cook_recipe">I Cooked This Recipe! (Deduct Ingredients)</string>
+    <string name="msg_cooked_success">Deducted recipe ingredients from your pantry!</string>
+    <string name="msg_cooked_partial">Some pantry items were updated or used up!</string>
+
+    <!-- Settings Screen -->
+    <string name="section_alerts">Notifications &amp; Alerts</string>
+    <string name="pref_expiring_alerts_title">Highlight Expiring Items</string>
+    <string name="pref_expiring_alerts_summary">Show warning badges for ingredients expiring in 3 days</string>
+    <string name="section_units">Measurement Preference</string>
+    <string name="pref_units_title">Default Unit System</string>
+    <string name="section_data">Data Management</string>
+    <string name="btn_clear_pantry">Clear All Pantry Items</string>
+    <string name="btn_reset_recipes">Reset &amp; Seed Default Recipes</string>
+    <string name="confirm_clear_pantry_title">Clear Pantry?</string>
+    <string name="confirm_clear_pantry_msg">Are you sure you want to remove all ingredients from your pantry?</string>
+    <string name="confirm_reset_recipes_title">Reset Recipes?</string>
+    <string name="confirm_reset_recipes_msg">Reset database recipes to initial seeded collection?</string>
+    <string name="app_version_info">SmartPantry v1.0\nMobile App Development 700\nBuilt in Java with SQLite Persistence</string>
+</resources>
